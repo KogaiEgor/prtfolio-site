@@ -7,6 +7,10 @@
     color: rgba(127, 163, 176, 0.8) !important;
 }
 
+.nav__links {
+    margin-left: auto;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
 }
