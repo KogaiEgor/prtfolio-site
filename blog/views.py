@@ -8,6 +8,7 @@ from rest_framework.permissions import AllowAny
 class BlogsView(views.APIView):
     permission_classes = [AllowAny]
     serializer_class = BlogSerializer
+    #add test comment
 
     def get(self, request, *args, **kwargs):
         queryset = Blog.objects.order_by('-id')[0:5]
